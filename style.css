@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif ;
+    font-size: 15px;
+}
+
+#container-i, #container-k, #container-e, #container-h, #container-c{
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#informations li{
+    margin: 30px 0;
+}
+
+#informations i{
+    margin-right: 10px;
+    color: #CE0033 ;
+}
+
+#informations ul{
+    list-style-type: none;
+}
+
+p, ul{
+    padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 20px 0  ;
+    padding: 10px;
+    text-align: center;
+}
+
+.presentation-color{
+    background-color: #333;
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.presentation-color h1{
+    margin-top: 0px;
+}
+
+.presentation-color a{
+    margin-top: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.presentation-color a:hover{
+    color: #CE0033;
+}
+
+.presentation-color p, #navbar{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fa-arrow-right, .fa-taxi, .fa-utensils, .fa-suitcase{
+    font-size: 15px ;
+    color: #CE0033;
+}
+
+.arrow-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-position h4{
+    margin: 50px 0px !important;
+}
+
+#simplon, #wa{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+
+
+/*Autre méthode pour placer le logo avant et après le titre pro*/
+
+/* #simplon::before, #simplon::after{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(images/logo_simplon.jpg);
+    background-size: 100%;
+} */
+
+.fa-html5{
+    font-size: 100px;
+    font-weight: bold;
+    color: #e34c26;
+}
+
+.fa-css3{
+    font-size: 100px;
+    font-weight: bold;
+    color: #00ace4;
+}
+
+.fa-js-square{
+    font-size: 100px;
+    font-weight: bold;
+    color: #f0db4f;
+}
+
+.fa-react{
+    font-size: 100px;
+    font-weight: bold;
+    color: #61dafb;
+}
+
+.fa-node-js{
+    font-size: 100px;
+    font-weight: bold;
+    color: #7cb701;
+}
+
+.fa-php{
+    font-size: 100px;
+    font-weight: bold;
+    color: #6280B6;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar li, #submit{
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #CE0033;
+    border-radius: 50px;
+    outline: none;
+    padding: 5px 10px;
+    margin: 10px 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: #CE0033;
+    color: white;
+    font-weight: bolder;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navbar li:hover, #submit:hover {
+    background-color: #CE0033;
+  }
+
+#formations a{
+    color: lime;
+    font-size: 20px;
+}
+
+#formations img{
+    width: 75%;
+    height: 50%;
+}
+
+.logos{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+}
+
+.input-field {
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+  }
+
+textarea{
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 150px;
+    border-radius: 15px;
+    padding: 0 0.4rem;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+  
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.1rem;
+}
+  
+.input-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.input-field input::placeholder {
+    color: #aaa;
+    font-weight: 300;
+}
+
+textarea#message::placeholder{
+    font-family: "Poppins", sans-serif;
+    color: #aaa;
+    font-weight: 300;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+.social-icon {
+
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #CE0033;
+    border-color: #CE0033;
+  }
+
+#k, #e, #h, #c,#container-k, #container-e, #container-h, #container-c{
+    display: none;
+}
