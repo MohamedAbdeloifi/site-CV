@@ -94,13 +94,6 @@ h1, h2, h3, h4, h5{
     margin: 50px 0px !important;
 }
 
-#simplon, #wa{
-    width: 25px !important;
-    height: 25px !important;
-}
-
-
-
 /*Autre méthode pour placer le logo avant et après le titre pro*/
 
 /* #simplon::before, #simplon::after{
@@ -174,6 +167,8 @@ h1, h2, h3, h4, h5{
     cursor: pointer;
 }
 
+/*bento apple.small permet de selectionner les tags apple qui ont directement la classe small */
+
 #navbar li:hover, #submit:hover {
     background-color: #CE0033;
   }
@@ -186,6 +181,11 @@ h1, h2, h3, h4, h5{
 #formations img{
     width: 75%;
     height: 50%;
+}
+
+#simplon, #wa{
+    width: 25px !important;
+    height: 25px !important;
 }
 
 .logos{
@@ -241,6 +241,7 @@ textarea{
     font-weight: 600;
     font-size: 1.1rem;
     color: #333;
+    padding: 10px;
 }
   
 .input-field i {
